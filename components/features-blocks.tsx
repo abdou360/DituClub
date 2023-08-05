@@ -11,8 +11,8 @@ export default function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Explore the solutions</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+          <h1 className="h1 mb-4">Our Values <h3 className="h3 mb-4">The 5C</h3></h1>
+            <p className="text-xl text-gray-600">Fear ...</p>
           </div>
 
           {/* Items */}
@@ -31,8 +31,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
+              <p className="text-gray-600 text-left">Embrace curiosity as a cornerstone value, encouraging members to ask questions, explore new concepts, and seek out knowledge to drive their learning journey.</p>
             </div>
 
             {/* 2nd item */}
@@ -47,8 +47,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Commitment</h4>
+              <p className="text-gray-600 text-left">Uphold commitment as a core value, encouraging members to stay dedicated to their projects, goals, and personal growth throughout their learning process.</p>
             </div>
 
             {/* 3rd item */}
@@ -64,8 +64,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Correct</h4>
+              <p className="text-gray-600 text-left">Strive for correctness as a value, emphasizing the importance of accuracy, precision, and attention to detail in all club activities and projects..</p>
             </div>
 
             {/* 4th item */}
@@ -81,8 +81,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Collaboration</h4>
+              <p className="text-gray-600 text-left">Promote collaboration as an essential value, fostering teamwork and peer support in project development, idea sharing, and problem-solving.</p>
             </div>
 
             {/* 5th item */}
@@ -112,8 +112,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Creativity</h4>
+              <p className="text-gray-600 text-left">Cultivate creativity as a guiding value, inspiring members to think innovatively, experiment with ideas, and develop original solutions in their pursuits.</p>
             </div>
 
           </div>

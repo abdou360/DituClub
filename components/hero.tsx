@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import VideoThumb from '@/public/images/hero-image.png'
+import EnsteinPicture from '@/public/images/enstein.jpg'
 import ModalVideo from '@/components/modal-video'
 
 export default function Hero() {
@@ -29,9 +31,17 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your website <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">wonderful</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">“𝙇𝒐𝙜𝒊𝙘 𝙬𝒊𝙡𝒍 𝒈𝙚𝒕 𝒚𝙤𝒖 𝒇𝙧𝒐𝙢 𝘼 𝙩𝒐 𝑩.<br/> 𝙄𝒎𝙖𝒈𝙞𝒏𝙖𝒕𝙞𝒐𝙣 𝙬𝒊𝙡𝒍 𝒕𝙖𝒌𝙚 𝙮𝒐𝙪 𝙚𝒗𝙚𝒓𝙮𝒘𝙝𝒆𝙧𝒆.”<br/>
+         <br/>
+          <div className="fixed bottom-0 -mt-8 right-0 transform -translate-x-1/2">
+                  <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
+                  </svg>
+                  <Image className="relative rounded-full" src={EnsteinPicture} width={90} height={90} alt="Albert Einstein" />
+            </div>
+            </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Theory and practice are different.<b>  Do It To Understand</b> </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
