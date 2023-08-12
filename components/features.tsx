@@ -119,10 +119,15 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
+                    <iframe 
+        width="560" 
+        height="315" 
+        allowFullScreen>
+      </iframe>
                     <ModalVideo
                                                    thumb={videoThumb1}
                                                    thumbWidth={768}
-                                                   thumbHeight={768}
+                                                   thumbHeight={208}
                                                    thumbAlt="Modal video thumbnail"
                                                    video="/videos/smart stroller.mp4"
                                                    videoWidth={1920}
@@ -143,15 +148,20 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}                     
                   >
-                     <ModalVideo
+                    <iframe 
+        width="560" 
+        height="315" 
+        allowFullScreen>
+      </iframe>
+                    <ModalVideo
                                                    thumb={videoThumb2}
                                                    thumbWidth={768}
                                                    thumbHeight={768}
                                                    thumbAlt="Modal video thumbnail"
-                                                   video="/videos/smart stroller.mp4"
+                                                   video="https://drive.google.com/file/d/1YxCK3FXA_3pWWobu7w8y7Bm0ZwjN_Cfq/preview"
                                                    videoWidth={1920}
-                                                   videoHeight={1080} />
-                  </Transition>
+                                                   videoHeight={1080} />              
+               </Transition>
                   {/* Item 3 */}
                   <Transition
                     show={tab === 3}
@@ -164,15 +174,21 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
-                  >
+                    unmount={false}>
                     <div className="relative inline-flex flex-col">
+                    <div>
+                       <iframe 
+                                width="560" 
+                               height="315" 
+                              allowFullScreen>
+                       </iframe>
+                     </div>
                     <ModalVideo
                                                    thumb={videoThumb3}
                                                    thumbWidth={768}
                                                    thumbHeight={768}
                                                    thumbAlt="Modal video thumbnail"
-                                                   video="/videos/smart stroller.mp4"
+                                                   video="https://drive.google.com/file/d/1pNVgBwXaG22p8c0h6knrg_20IYkk7LVx/preview"
                                                    videoWidth={1920}
                                                    videoHeight={1080} />
                     </div>
